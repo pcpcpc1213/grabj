@@ -8,8 +8,10 @@ Example:
 
 ```python
 >>> import grabj
+>>> title = None
 >>> source = "https://jsonplaceholder.typicode.com/todos/1"
 >>> grabj.getjson(url=source, call="title")
+>>> print(title)
 delectus aut autem
 ```
 
